@@ -1,19 +1,87 @@
-/* Estilos Globais */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  color: #4a4a4a;
-  background-color: #f9f6f2;
+  color: #4A4A4A;
+  background-color: #F9F6F2;
 }
-/* Cabeçalho */
+
 header {
-  background-color: #8c5c42;
+  background-color: #8C5C42;
   padding: 20px;
   text-align: center;
-  color: #fff;
+  color: #FFF;
 }
+
 header h1 {
-  margin: 0;
-  font-size: 2em;
+margin: 0;
+font-size: 2em;
+}
+
+nav {
+ background-color: #BF8A6B;
+ display: flex;
+ justify-content: center;
+ padding: 10px;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 1.8em;
+  color: #8C5C42;
+}
+
+.section p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1em;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #FFF;
+  border: 1px solid #D3B59C;
+  border-radius: 8px;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card h3 {
+  color: #8C5C42;
+}
+
+footer {
+  background-color: #8C5C42;
+  color: #FFF;
+  text-align: center;
+  padding: 10px;
 }
