@@ -2,31 +2,31 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  color: #4A4A4A;
-  background-color: #F9F6F2;
+  color: #000;
+  background-color: #f9f6f2;
 }
 
 header {
-  background-color: #8C5C42;
+  background-color: #ffcc53;
   padding: 20px;
   text-align: center;
-  color: #FFF;
+  color: #000;
 }
 
 header h1 {
-margin: 0;
-font-size: 2em;
+  margin: 0;
+  font-size: 2em;
 }
 
 nav {
- background-color: #BF8A6B;
- display: flex;
- justify-content: center;
- padding: 10px;
+  background-color: #f7ce4d;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 nav a {
-  color: #FFF;
+  color: #000;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
@@ -43,7 +43,7 @@ nav a:hover {
 
 .section h2 {
   font-size: 1.8em;
-  color: #8C5C42;
+  color: #8c5c42;
 }
 
 .section p {
@@ -60,8 +60,8 @@ nav a:hover {
 }
 
 .card {
-  background-color: #FFF;
-  border: 1px solid #D3B59C;
+  background-color: #ffffff;
+  border: 1px solid #e1ab38;
   border-radius: 8px;
   width: 250px;
   margin: 10px;
@@ -76,12 +76,12 @@ nav a:hover {
 }
 
 .card h3 {
-  color: #8C5C42;
+  color: #8c5c42;
 }
 
 footer {
-  background-color: #8C5C42;
-  color: #FFF;
+  background-color: #f7ce4d;
+  color: #000;
   text-align: center;
   padding: 10px;
 }
