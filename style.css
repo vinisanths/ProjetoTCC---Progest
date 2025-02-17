@@ -13,6 +13,18 @@ header {
   color: #000;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  margin-right: 10px;
+}
+
 header h1 {
   margin: 0;
   font-size: 2em;
@@ -77,6 +89,42 @@ nav a:hover {
 
 .card h3 {
   color: #8c5c42;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contato input,
+.contato textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contato button {
+  background-color: #ffcc53;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.contato button:hover {
+  background-color: #e1ab38;
 }
 
 footer {
