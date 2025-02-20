@@ -26,28 +26,43 @@ header {
 }
 
 header h1 {
+  font-size: 1.8em;
   margin: 0;
-  font-size: 2em;
 }
 
+/* MENU RESPONSIVO */
 nav {
   background-color: #f7ce4d;
-  display: flex;
-  justify-content: center;
   padding: 10px;
+  text-align: center;
 }
 
-nav a {
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu a {
   color: #000;
   text-decoration: none;
-  margin: 0 15px;
+  margin: 10px;
   font-weight: bold;
 }
 
-nav a:hover {
+.menu a:hover {
   text-decoration: underline;
 }
 
+/* SEÇÕES */
 .section {
   padding: 40px;
   text-align: center;
@@ -64,6 +79,7 @@ nav a:hover {
   font-size: 1em;
 }
 
+/* CARDS */
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -87,10 +103,7 @@ nav a:hover {
   border-radius: 4px;
 }
 
-.card h3 {
-  color: #8c5c42;
-}
-
+/* FORMULÁRIO */
 .contato form {
   display: flex;
   flex-direction: column;
@@ -114,10 +127,36 @@ nav a:hover {
 .contato button:hover {
   background-color: #e1ab38;
 }
- 
+
+/* RODAPÉ */
 footer {
-  background-color: #f7ce4d;
-  color: #000;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  background-color: #f7ce4d;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu a {
+    padding: 10px;
+    display: block;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
 }
