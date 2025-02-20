@@ -59,11 +59,7 @@
     </section>
 
     <!-- Seção Treinamentos -->
-    <section
-      id="treinamentos"
-      class="section"
-      style="background-color: #efe9e4"
-    >
+    <section id="treinamentos" class="section">
       <h2>Treinamentos</h2>
       <p>
         Nossos treinamentos são projetados para desenvolver habilidades em
@@ -113,7 +109,7 @@
         Fale conosco para saber mais sobre nossos serviços e como podemos ajudar
         sua empresa.
       </p>
-      <form action="enviar.php" method="post">
+      <form onsubmit="enviarEmail(event)">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required />
 

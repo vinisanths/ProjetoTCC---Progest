@@ -97,36 +97,24 @@ nav a:hover {
   align-items: center;
 }
 
-.contato label {
-  font-weight: bold;
-  margin-top: 10px;
-}
-
 .contato input,
 .contato textarea {
   width: 80%;
   max-width: 400px;
   padding: 8px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
 }
 
 .contato button {
   background-color: #ffcc53;
-  color: #000;
+  padding: 10px;
   border: none;
-  padding: 10px 15px;
-  margin-top: 15px;
   cursor: pointer;
-  border-radius: 5px;
-  font-weight: bold;
 }
 
 .contato button:hover {
   background-color: #e1ab38;
 }
-
+ 
 footer {
   background-color: #f7ce4d;
   color: #000;

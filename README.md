@@ -3,7 +3,7 @@
 # 📚 ProjetoTCC - Progest
 
 Bem-vindo ao repositório do **Progest**, um projeto desenvolvido como Trabalho de Conclusão de Curso (TCC).
-Este projeto tem como objetivo [descrever brevemente o objetivo do projeto].
+Este projeto tem como objetivo a criação de um site para uma empresa de gestão da Qualidade na cidade de Itapecuru Mirim - MA.
 
 
 ## 🛠️ Tecnologias Utilizadas
